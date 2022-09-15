@@ -1,34 +1,29 @@
 public class Engaging {
-    struct Employee
+    struct Employee1
     {
         public string FirstName;
         public string LastName;
         public int age;
         public string CompletedTraining;
+       
     }
     public static void Main(string[] args){
 
-        Employee emp;
+        
 
-        Console.WriteLine("What is your First Name?");
-        emp.FirstName = Console.ReadLine( );
-        Console.WriteLine("Your Last Name?");
-        emp.LastName = Console.ReadLine( );
-        Console.WriteLine("Your Age?");
-        emp.age = int.Parse(Console.ReadLine( ));
-        Console.WriteLine("Are you Completed the training?");
-        emp.CompletedTraining =Console.ReadLine( );
+        string name = "Juan";
+        Console.WriteLine("First Name :"+ name);
 
-        Console.WriteLine();
-        Console.WriteLine("ENTER TO SEE RESULTS");
-        Console.ReadLine();
+        string name1 = "Dela Cruz";
+        Console.WriteLine("Last Name :" + name1);
 
-        Console.WriteLine("You entered");
-        Console.WriteLine();
+        int age =25;
+        Console.WriteLine("Age :" + age);
 
-        Console.WriteLine("FIRST NAME : "+ emp.FirstName);
-        Console.WriteLine("LAST NAME : "+ emp.LastName);
-        Console.WriteLine("AGE : "+ emp.age);
-        Console.WriteLine("COMPLETED TRAINING: "+ emp.CompletedTraining);
+
+        string yes = "YES";
+        Console.WriteLine("Completed Training :" + yes);
+
+
         }
 }
